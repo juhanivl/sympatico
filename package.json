@@ -12,9 +12,9 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "dev": "webpack -d --watch",
+    "gulp": "gulp",
     "build": "webpack -p",
-    "gulp": "gulp"
+    "dev": "webpack -d --watch",
   },
   "babel": {
     "presets": [
